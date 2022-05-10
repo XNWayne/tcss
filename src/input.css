@@ -1,22 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
 #main-body {
-    height: 100vh;
+  height: 100vh;
 }
 
 @media (max-width: 967px) and (orientation: landscape) {
-    #main-body {
-        height: max-content;
-    }
+  #main-body {
+    height: max-content;
+  }
 }
 
 #input {
-    width: 100%;
+  width: 100%;
+}
+
+
+@media (max-width: 320px) {
+  #main-body {
+    /* height: max-content; */
+  }
+
+  #main-body h1 {
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
+  #image img {
+    height: 8rem;
+  }
+
+  #deliver {
+    font-size: .8rem;
+  }
 }
