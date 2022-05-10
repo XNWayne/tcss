@@ -545,18 +545,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.w-48{
-  width: 12rem;
-}
-
 .w-fit{
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.w-1\/2{
-  width: 50%;
 }
 
 .w-56{
@@ -565,6 +557,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-64{
   width: 16rem;
+}
+
+.w-48{
+  width: 12rem;
+}
+
+.w-44{
+  width: 11rem;
 }
 
 .cursor-text{
@@ -581,10 +581,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center{
   align-items: center;
-}
-
-.justify-start{
-  justify-content: flex-start;
 }
 
 .justify-between{
@@ -749,14 +745,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 #input {
   width: 100%;
-}
-
-.first-letter\:mt-8::first-letter{
-  margin-top: 2rem;
-}
-
-.first-letter\:first-line\:mt-8::first-letter::first-line{
-  margin-top: 2rem;
 }
 
 .focus\:outline-none:focus{
