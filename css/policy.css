@@ -1,0 +1,21 @@
+main {
+  background-image: url(../assets/images/bg-links-m.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: top center; */
+  position: relative;
+}
+
+#contents {
+  box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+  -webkit-box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+}
+
+@media (min-width: 976px) {
+  #details {
+    box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+    -webkit-box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+    -moz-box-shadow: 0px 9px 61px -13px rgba(0, 0, 0, 0.91);
+  }
+}
