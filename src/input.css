@@ -10,3 +10,16 @@
 #main-body {
     height: 100vh;
 }
+
+#main {
+    height: 88%;
+}
+
+@media (max-width:976px) {
+    #main {
+        background-image: url(../assets/images/home-bg.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
