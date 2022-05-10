@@ -10,3 +10,9 @@
 #main-body {
     height: 100vh;
 }
+
+@media (max-width: 967px) and (orientation: landscape) {
+    #main-body {
+        height: max-content;
+    }
+}
