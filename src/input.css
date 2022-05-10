@@ -16,3 +16,7 @@
         height: max-content;
     }
 }
+
+#input {
+    width: 100%;
+}
