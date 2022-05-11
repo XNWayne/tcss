@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="/dist/output.css" />
+    
+        <!-- Favicon -->
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    
+        <title>Contact Us - Pal Foods</title>
+        <link rel="stylesheet" href="./css/policy.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/header.css">
+      </head>
+  <body class="font-poppins">
+    <header class="bg-main flex justify-between items-center py-2 px-4 lg:py-3 lg:px-6">
+      <!-- Logo -->
+       <section>
+         <a href="/index.html">
+           <img src="./assets/images/logo-header.svg" alt="pal-foods-logo" class="w-14 lg:w-16">
+         </a>
+       </section>
+       <!-- Location -->
+       <section>
+         <button class="hidden items-center justify-center border-b-2 border-black md:flex">
+           <span class="font-medium mr-1">Lurambi</span> <img src="./assets/icons/chevron-down-outline (1).svg" alt="chevron-down-outline" class="w-4">
+         </button>
+       </section>
+       <!-- Account -->
+       <section class="flex items-center justify-center">
+         <div class="">
+           <button>
+             <img src="./assets/icons/person-circle (1).svg" alt="person" class="w-8 block mr-4 lg:hidden lg:w-10">
+           </button>
+         </div>
+         <div>
+           <button class="font-medium bg-sec text-white py-2 px-4 rounded-md hidden mr-4 lg:block">Log in / Sign up</button>
+         </div>
+         <div>
+           <button>
+             <img src="./assets/icons/basket (1).svg" alt="basket" class="w-8 lg:w-9">
+           </button>
+           <div id="items" class="text-white text-sm font-medium text-center cursor-pointer">2</div>
+         </div>
+       </section>
+</header>
+<main>
+    <h1 class="text-black font-ubuntu font-bold text-3xl mx-5 mb-6 mt-4">Contact Us</h1>
+    <section id="contact-us" class="flex flex-col mx-8 mb-16 lg:flex-row rounded-md lg:mr-48">
+        <div class="bg-sec py-6 px-4 rounded-t-md lg:rounded-l-md lg:w-1/3">
+            <h2 class="font-semibold font-ubuntu text-xl tracking-wide">Contact Information</h2>
+            <p class="flex mt-4"><img src="./assets/icons/call.svg" alt="call-icon" class="w-5 mr-2"> <span>+254 77741 5042</span></p>
+            <p class="flex mt-2"><img src="./assets/icons/mail.svg" alt="cmail-icon" class="w-5 mr-2"> <span>support@palfoods.co.ke</span></p>
+        </div>
+        <div class="bg-white py-4 px-4 rounded-b-md lg:rounded-r-md lg:w-2/3">
+            <p class="font-medium">Send us a message</p>
+            <form class="mt-4">
+                <div id="name">
+                    <label for="name" class="text-sm">Full Name</label>
+                    <input type="text" id="name" class="border-2 border-gray-300 rounded-md block w-full px-2 py-1 font-medium text-sm focus:outline-none">
+                </div>
+                <div id="email">
+                    <label for="email" class="text-sm">Email</label>
+                    <input type="email" id="email" class="border-2 border-gray-300 rounded-md block w-full px-2 py-1 font-medium text-sm focus:outline-none">
+                </div>
+                <div id="no">
+                    <label for="no" class="text-sm">Phone Number</label>
+                    <input type="tel" id="no" class="border-2 border-gray-300 rounded-md block w-full px-2 py-1 font-medium text-sm focus:outline-none">
+                </div>
+                <div id="message">
+                    <label for="message" class="text-sm">Message</label>
+                    <textarea class="border-2 border-gray-300 rounded-md block w-full px-2 py-1 font-medium text-sm focus:outline-none" maxlength="500"></textarea>
+                </div>
+                <button type="submit" class="bg-sec text-white font-medium text-base py-2 px-4 mt-4 rounded-md">Send</button>
+            </form>
+        </div>
+    </section>
+</main>  
+<footer class="border-t-2 border-black py-8 px-4">
+    <div id="important-links" class="flex flex-wrap items-center text-black justify-center">
+      <a href="/index.html" class="border-b-2 border-black mt-5">Home</a>
+      <a href="/about.html" class="border-b-2 border-black ml-5 mt-5">About Us</a>
+      <a href="/contact.html" class="border-b-2 border-black ml-5 mt-5">Contact Us</a>
+      <a href="/policy.html" class="border-b-2 border-black ml-5 mt-5">Privacy Policy</a>
+      <a href="/terms.html" class="border-b-2 border-black ml-5 mt-5">Terms of Use</a>
+      <button class="border-b-2 border-black ml-5 mt-5">Delivery Zones</buttton>
+    </div>
+    <div
+    id="footer-logo"
+    class="flex flex-row items-center justify-between mt-8"
+  >
+    <a href="#"
+      ><img src="./assets/images/logo-landscape.svg" alt="" class="w-48"
+    /></a>
+    <p class="font-semibold">&copy; 2022</p>
+  </div>
+  </footer>
+</body>
+</html>
