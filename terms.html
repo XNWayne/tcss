@@ -31,25 +31,36 @@
       <link rel="stylesheet" href="./css/policy.css">
     </head>
 <body class="font-poppins">
-  <header id="header" class="py-3 px-4 lg:px-8 bg-main">
-    <nav class="flex flex-row items-center justify-between">
-      <div>
-        <a href="index.html">
-          <img
-            src="./assets/images/logo-header.svg"
-            alt="pal-foods-logo"
-            class="w-14 lg:w-16"
-          />
-        </a>
-      </div>
-      <div>
-        <button
-          class="font-medium text-sm tracking-wider bg-sec text-white px-4 py-1.5 rounded-full focus:outline-none lg:text-sm lg:px-6 lg:py-2"
-        >
-          Log in
-        </button>
-      </div>
-    </nav>
+  <header class="bg-main flex justify-between items-center py-2 px-4 lg:py-3 lg:px-6">
+    <!-- Logo -->
+     <section>
+       <a href="/index.html">
+         <img src="./assets/images/logo-header.svg" alt="pal-foods-logo" class="w-14 lg:w-16">
+       </a>
+     </section>
+     <!-- Location -->
+     <section>
+       <button class="hidden items-center justify-center border-b-2 border-black md:flex">
+         <span class="font-medium mr-1">Lurambi</span> <img src="./assets/icons/chevron-down-outline (1).svg" alt="chevron-down-outline" class="w-4">
+       </button>
+     </section>
+     <!-- Account -->
+     <section class="flex items-center justify-center">
+       <div class="">
+         <button>
+           <img src="./assets/icons/person-circle (1).svg" alt="person" class="w-8 block mr-4 lg:hidden lg:w-10">
+         </button>
+       </div>
+       <div>
+         <button class="font-medium bg-sec text-white py-2 px-4 rounded-md hidden mr-4 lg:block">Log in / Sign up</button>
+       </div>
+       <div>
+         <button>
+           <img src="./assets/icons/basket (1).svg" alt="basket" class="w-8 lg:w-9">
+         </button>
+         <div id="items" class="text-white text-sm font-medium text-center cursor-pointer">2</div>
+       </div>
+     </section>
   </header>
 
   <main class="py-6">
