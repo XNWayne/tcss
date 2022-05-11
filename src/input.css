@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #main-body {
   height: 100vh;
 }
@@ -20,9 +21,6 @@
 
 
 @media (max-width: 340px) {
-  #main-body {
-    /* height: max-content; */
-  }
 
   #main-body h1 {
     font-size: 1.5rem;
