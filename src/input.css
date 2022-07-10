@@ -42,3 +42,7 @@ button {
 button:focus {
   outline: none;
 }
+
+.fullstop {
+  color: #0090e3;
+}
